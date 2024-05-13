@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken'
+import 'dotenv/config'
 
 
 const tokenVerification = (req, res, next) => {
